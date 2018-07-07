@@ -170,5 +170,4 @@ MobileNet_v2+CPU
 
 MobileNet_v2+GPU
 ![](http://static.zybuluo.com/huuuuusy/fezrp2x3une2sgexi6p3oqsz/Screenshot_2018-07-07-22-15-39-996_com.xiaomi.mace.demo.png)
-
 可以看到两种网络利用Mobile GPU的物体识别速度均快于Mobile CPU.
