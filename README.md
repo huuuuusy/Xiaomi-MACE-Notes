@@ -161,6 +161,6 @@
 
 |MobileNet_v1+CPU|MobileNet_v1+GPU|MobileNet_v2+CPU|MobileNet_v2+GPU|
 |:--:|:--:|:--:|:--:|
-|![](http://static.zybuluo.com/huuuuusy/bvdsxeslld8twbqbqygf3d5d/Screenshot_2018-07-07-22-15-19-705_com.xiaomi.mace.demo.png|![](http://static.zybuluo.com/huuuuusy/oy8xv91ofi1geuc137ez8m26/Screenshot_2018-07-07-22-15-29-558_com.xiaomi.mace.demo.png)|![](http://static.zybuluo.com/huuuuusy/ibw8ycvx17ueu9wc3w87edli/Screenshot_2018-07-07-22-15-47-615_com.xiaomi.mace.demo.png)|![](http://static.zybuluo.com/huuuuusy/as2jumksz77manyudc4euj7r/Screenshot_2018-07-07-22-15-39-996_com.xiaomi.mace.demo.png)|
+|![](http://static.zybuluo.com/huuuuusy/bvdsxeslld8twbqbqygf3d5d/Screenshot_2018-07-07-22-15-19-705_com.xiaomi.mace.demo.png)|![](http://static.zybuluo.com/huuuuusy/oy8xv91ofi1geuc137ez8m26/Screenshot_2018-07-07-22-15-29-558_com.xiaomi.mace.demo.png)|![](http://static.zybuluo.com/huuuuusy/ibw8ycvx17ueu9wc3w87edli/Screenshot_2018-07-07-22-15-47-615_com.xiaomi.mace.demo.png)|![](http://static.zybuluo.com/huuuuusy/as2jumksz77manyudc4euj7r/Screenshot_2018-07-07-22-15-39-996_com.xiaomi.mace.demo.png)|
 
 可以看到两种网络利用Mobile GPU的物体识别速度均快于Mobile CPU.
