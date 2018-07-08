@@ -1,0 +1,42 @@
+// Copyright 2018 Xiaomi, Inc.  All rights reserved.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+// This is a generated file. DO NOT EDIT!
+
+#include <vector>
+#include <string>
+
+#include "mace/proto/mace.pb.h"
+#include "mace/public/mace.h"
+#include "mace/utils/env_time.h"
+#include "mace/utils/logging.h"
+
+namespace mace {
+namespace {{tag}} {
+
+void CreateTensor{{tensor_info.id}}(mace::ConstTensor *const_tensor) {
+  MACE_LATENCY_LOGGER(2, "Create tensor {{ tensor.name }}");
+  const_tensor->set_name({{ tensor.name|tojson }});
+  const_tensor->set_offset({{ tensor.offset }});
+  const_tensor->set_data_size({{ tensor.data_size }});
+  {% for dim in tensor.dims %}
+  const_tensor->add_dims({{ dim }});
+  {% endfor %}
+  const_tensor->set_data_type(static_cast<DataType>({{ tensor_info.data_type }}));
+  const_tensor->set_node_id({{ tensor.node_id }});
+}
+
+}  // namespace {{tag}}
+}  // namespace mace
+
