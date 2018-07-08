@@ -161,6 +161,6 @@
 
 |MobileNet_v1+CPU|MobileNet_v1+GPU|MobileNet_v2+CPU|MobileNet_v2+GPU|
 |:--:|:--:|:--:|:--:|
-|![](http://static.zybuluo.com/huuuuusy/rcxamdsywquhho69jomu1hzt/image.png)|![](http://static.zybuluo.com/huuuuusy/fc99emk9zz8asj8twzd9wizc/image.png)|![](http://static.zybuluo.com/huuuuusy/mh11zov119km837ist0s0juq/image.png)|![](http://static.zybuluo.com/huuuuusy/nax6ctw3uprebzm815indqv6/image.png)|
+|![](http://static.zybuluo.com/huuuuusy/rcxamdsywquhho69jomu1hzt/image.png)|![](http://static.zybuluo.com/huuuuusy/fc99emk9zz8asj8twzd9wizc/image.png)|![](http://static.zybuluo.com/huuuuusy/lvjbufizdp5lbuyya1xxlyr9/2018-07-08%2010-36-20%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)|![](http://static.zybuluo.com/huuuuusy/nax6ctw3uprebzm815indqv6/image.png)|
 
 可以看到两种网络利用Mobile GPU的物体识别速度均快于Mobile CPU.
